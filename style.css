@@ -1,0 +1,212 @@
+/*
+*
+* Template Name : Fb Club
+* Author : Sikder Md Arif
+* Date : 7 - 14 - 2021
+*
+*/
+
+/************
+* Appearance *
+************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+:root {
+    --main-blue : #2D25A0;
+    --main-pink : #E02C6D;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    position: relative;
+    padding: 6px 15px;
+    background-color: var(--main-pink);
+    box-shadow: inset 0 0 0 0 #B0A001;
+    transition: ease 0.4s;
+}
+
+.btn:hover {
+    box-shadow: inset 200px 0 0 0 #B0A001;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.icon-btn a img {
+    width: 18px;
+    margin-bottom: -3px;
+    margin-left: 6px;
+}
+
+/*------ Header Area ------*/
+
+
+.hero {
+    padding: 40px 0 80px;
+    background-color: var(--main-blue);
+}
+
+/*--- Menus ---*/
+
+.menu-part, .menus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menus li {
+    margin-right: 20px;
+}
+
+.menus li:last-child {
+    margin-right: 0;
+}
+
+.menus li > a {
+    padding: 4px 8px;
+    transition: color .4s;
+}
+
+.menus li:hover > a {
+    color: var(--main-pink);
+}
+
+/*---Info Area ---*/
+
+.info-area, .blog-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 180px 0 60px;
+}
+
+.info-cont, .info-img {
+    width: 40%;
+}
+
+.info-cont h1 {
+    margin: 0 0 20px;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*------ Blog Area ------*/
+
+.blog-area {
+    padding: 80px 0;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+}
+
+.blog {
+    padding: 15px 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px #f0f0f0;
+}
+
+.blog h3 {
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+.blog p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Blog Info Area */
+
+.blog-info .info-cont h2 {
+    margin: 0 0 20px;
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: 700;
+    color: #000;
+}
+
+
+/* next match */
+
+.score-area {
+    padding: 150px 0 100px;
+}
+
+.score-area h2 {
+   text-align: center;
+   margin: 0 0 60px;
+   font-size: 35px;
+   line-height: 45px;
+   font-weight: 700;
+   color: #000;
+}
+
+.next-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 110px;
+}
+
+.matchs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px 10px #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.matchs img {
+    width: 90px;
+}
+
+.matchs h4, p {
+    margin: 0;
+}
+
+/*------- Footer area -------*/
+
+.footer {
+    padding: 80px 0 40px;
+    text-align: center;
+}
+
+.footer-content > img {
+    width: 300px;
+}
+
+.footer-content ul.footer-icons {
+    display: flex;
+    justify-content: center;
+}
+
+ul.footer-icons li img {
+    width: 40px;
+    margin: 0 20px;
+}
