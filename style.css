@@ -112,6 +112,10 @@ ul {
     color: #fff;
 }
 
+.info-cont > p {
+    margin-bottom: 20px;
+}
+
 /*------ Blog Area ------*/
 
 .blog-area {
@@ -130,12 +134,12 @@ ul {
     box-shadow: 0 0 10px 10px #f0f0f0;
 }
 
-.blog h3 {
+.blog > h3 {
     margin: 10px 0;
     font-size: 28px;
 }
 
-.blog p {
+.blog > p {
     font-size: 16px;
     margin: 0;
 }
@@ -186,7 +190,7 @@ ul {
     width: 90px;
 }
 
-.matchs h4, p {
+.matchs .time h4,p {
     margin: 0;
 }
 
